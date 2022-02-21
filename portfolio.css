@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/*================ top-banner =============*/
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width {
+    width: 50%;
+    padding-left: 3%;
+    padding-top: 20px;
+}
+.half-width img {
+    width: 70%;
+}
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 20px;
+}
+.orange-color {
+    color: orange;
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 10px;
+}
+/*================ dream big area =============*/
+.dream-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-bg p {
+    padding-right: 60px;
+}
+
+/*================ experience area =============*/
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item {
+    width: 600px;
+    height: 320px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+#web-dev-experience {
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+}
